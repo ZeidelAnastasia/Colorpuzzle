@@ -6,7 +6,7 @@ import kotlin.random.Random
 class ColorGenerator {
 
     companion object {
-        private const val GRID_SIZE = 7
+        private const val GRID_SIZE = 9
     }
 
     fun generateColors(): List<Color> {

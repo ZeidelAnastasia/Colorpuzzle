@@ -11,7 +11,7 @@ import kotlin.random.Random
 class GameViewModel : ViewModel() {
 
     companion object {
-        const val GRID_SIZE = 7
+        const val GRID_SIZE = 9
     }
 
     var tiles by mutableStateOf(generateLevel())

@@ -42,7 +42,7 @@ fun GameScreen(vm: GameViewModel) {
             val boardSize = minOf(maxWidth, maxHeight)
 
             LazyVerticalGrid(
-                columns = GridCells.Fixed(7),
+                columns = GridCells.Fixed(9),
                 horizontalArrangement = Arrangement.spacedBy(0.dp),
                 verticalArrangement = Arrangement.spacedBy(0.dp),
                 modifier = Modifier
