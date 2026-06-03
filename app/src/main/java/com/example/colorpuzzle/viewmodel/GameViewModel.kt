@@ -89,14 +89,14 @@ class GameViewModel : ViewModel() {
         lockedPositions.add(total - 1)
 
         // 4-й ряд
-        for (col in 0 until GRID_SIZE) {
-            lockedPositions.add(3 * GRID_SIZE + col)
-        }
+//        for (col in 0 until GRID_SIZE) {
+//            lockedPositions.add(3 * GRID_SIZE + col)
+//        }
 
         // 4-й столбец
-        for (row in 0 until GRID_SIZE) {
-            lockedPositions.add(row * GRID_SIZE + 3)
-        }
+//        for (row in 0 until GRID_SIZE) {
+//            lockedPositions.add(row * GRID_SIZE + 3)
+//        }
 
         return lockedPositions
     }
